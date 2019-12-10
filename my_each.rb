@@ -3,5 +3,6 @@ def my_each(collection)
   while i < collection.size do
     yield collection[i]
     i += 1 
-  end 
+  end
+  collection
 end
